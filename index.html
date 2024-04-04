@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MarginalSkateshop</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nosifer&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Rubik+Glitch+Pop&family=Rubik+Wet+Paint&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <script src="./assets/js/script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>D&D</h1>
+      <span id="subtitulo"> Marginais SkateShop</span>
+      <a class="botao" href="#secao-apresentacao">
+        <span class="'material-symbols-outlined"> Saiba mais! </span>
+      </a>
+    </header>
+
+    <section id="secao-apresentacao">
+      <img id="avatar" src="./assets/images/Guima.jpg" alt="Guima" />
+      <div>
+        <h2>For the love of the streets</h2>
+        <p>
+          Se você está procurando mais do que apenas equipamentos de skate,
+          venha nos visitar na Marginais Skateshop, onde as ruas se tornam
+          galerias e a criatividade é livre para fluir. Junte-se a nós enquanto
+          exploramos os limites da cultura urbana e celebramos a beleza
+          encontrada nas interseções entre o skate, a arte de rua e as pixações.
+          Sinta a vibe, sinta o fluxo, na Marginais, onde a cidade é nossa tela
+          e a rua é nossa inspiração.
+        </p>
+        <a href="#">Venha para o nosso mundo!</a>
+      </div>
+    </section>
+
+    <section id="secao-projetos">
+      <ul>
+        <li>
+          <div class="card">
+            <div class="image-wrapper">
+              <img src="./assets/images/lancamentos.png" alt="Lançamentos" />
+            </div>
+            <div class="card-text">
+              <h2>Lançamentos</h2>
+              <p>Só pedrada</p>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="card">
+            <div class="image-wrapper">
+              <img src="./assets/images/maisvendidos.png" alt="Mais Vendidos" />
+            </div>
+            <div class="card-text">
+              <h2>Mais Vendidos</h2>
+              <p>A rua é nossa</p>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="card">
+            <div class="image-wrapper">
+              <img src="./assets/images/tabacaria.png" alt="tabacaria" />
+            </div>
+            <div class="card-text">
+              <h2>Headshop</h2>
+              <p>Legalizou</p>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <section id="secao-compraskate">
+      <h2>$ Faça parte da equipe Marginais $</h2>
+      <form id="formulario" action="#">
+        
+          <div class="campo">
+              <label for="procura">Vulgo:</label>
+              <input type="text" id="procura" name="nome">
+            </div>
+    
+          <div class="campo">
+              <label for="idade">Informe sua idade</label>
+              <input type="number" id="idade" value="1" min="1"/>
+          </div>
+  
+          <div class="campo">
+              <label for="shapes">O que procura?</label>
+              <select name="shapes" id="shapes">
+                <option></option>
+                <option value="1">Camiseta</option>
+                <option value="2">Blusa</option>
+                <option value="3">Calça</option>
+                <option value="4">Bermuda</option>
+                <option value="5">Shape</option>
+                <option value="6">Truck</option>
+                <option value="7">Roda</option>
+                <option value="8">Lixa</option>
+                <option value="9">Acessorios</option>
+              </select>
+          </div>
+  
+          <div class="campo linha">
+            <label for="Venda">Varejo ou atacado?</label>
+            <div>
+              <input name="Venda" type="radio" id="Venda_Varejo" />
+              <label for="Venda_Varejo">Varejo</label>
+              <input name="Venda" type="radio" id="Venda_Atacado" />
+              <label for="Venda_Atacado">Atacado</label>
+            </div>
+          </div>
+  
+          <div class="linha">
+            <input type="checkbox" id="js" />
+            <label for="js">Indicaria nossa Loja?</label>
+          </div>
+  
+          <div class="campo">
+            <label for="sabe">Satisfação?</label>
+            <input type="range" name="Satisfacao" id="slider" min="0" max="10" value="0">
+            <span id="result">0</span> 
+        </div>
+
+
+          <div class="campo">
+              <button type="submit">Enviar</button>
+          </div>
+      </form>
+  </section>
+  
+  <div>
+      <h2>SkateShop Since 2024©</h2>
+  </div>
+
+  </body>
+  </html>
